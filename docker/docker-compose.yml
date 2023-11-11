@@ -6,7 +6,7 @@ services:
     security_opt:
       - seccomp:unconfined
     volumes:
-      - ./entrypoint.sh:/entrypoint.sh
+      - ./entrypoint.sh:/app/entrypoint.sh
       - ./config.json:/app/plugins/config.json
     environment:
       OPEN_AI_API_KEY: ''
