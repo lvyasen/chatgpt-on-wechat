@@ -1,7 +1,7 @@
 .DS_Store
 .idea
 .vscode
-#.venv
+.venv
 .vs
 .wechaty/
 __pycache__/
